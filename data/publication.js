@@ -1,7 +1,35 @@
 // Public publication metadata and recorded simulation cases.
 window.NAV_PUBLICATION = {
-  "authors": [],
-  "affiliations": [],
+  "authors": [
+    {
+      "name": "Haoxiang Shi",
+      "affiliation": "1,2"
+    },
+    {
+      "name": "Zaijing Li",
+      "affiliation": "1,2"
+    },
+    {
+      "name": "Muhe Ding",
+      "affiliation": "1"
+    },
+    {
+      "name": "Xiang Deng",
+      "affiliation": "1"
+    },
+    {
+      "name": "Yaowei Wang",
+      "affiliation": "1,2"
+    },
+    {
+      "name": "Liqiang Nie",
+      "affiliation": "1"
+    }
+  ],
+  "affiliations": [
+    "1 Harbin Institute of Technology (Shenzhen)",
+    "2 Pengcheng Laboratory"
+  ],
   "paperUrl": "",
   "codeUrl": "",
   "bibtex": "",

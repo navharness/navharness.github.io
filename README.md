@@ -1,6 +1,6 @@
 # NavHarness project page
 
-A standalone academic project page for **NavHarness: Adaptive Goals for Agentic Vision-Language Navigation**. Plain HTML, CSS, and JavaScript; no build step, external fonts, analytics, cookies, or third-party video player.
+A standalone academic project page for **NavHarness: Adaptive Goals for Vision-and-Language Navigation**. Plain HTML, CSS, and JavaScript; no build step, external fonts, analytics, cookies, or third-party video player.
 
 ## 发布到 GitHub Pages
 
@@ -21,7 +21,7 @@ A standalone academic project page for **NavHarness: Adaptive Goals for Agentic 
 - `codeUrl`：正式代码仓库地址。
 - `bibtex`：正式引用文本。
 
-这些字段未填写时，对应栏目自动隐藏，不显示假链接或占位作者。页面没有任何 ICLR 录用声明。正文内容及实验数字已根据 2026-09-28 读取的 Overleaf 在线稿整理。
+这些字段未填写时，对应栏目自动隐藏，不显示假链接或占位作者。页面没有任何 ICLR 录用声明。正文、实验数值、标题和作者信息已于 2026-09-30 同步到用户上传的 arXiv 源稿 `NavHarness___Arxiv_2026_09_28.zip`；排版修正未改动论文数值。
 
 ## 真机视频
 
@@ -44,8 +44,10 @@ A standalone academic project page for **NavHarness: Adaptive Goals for Agentic 
 - 导航对照使用论文 Table 1，NavHarness 为未开启 Memory compression 的配置。
 - 上下文节省使用论文 Table 2；同时呈现 SR 与 SPL 变化。
 - 真机汇总使用论文 Table 3（8 条路线、每条 3 次），不从工作簿的 8 个示例重新计算。
-- Table 1 中 GPT-5.6-Sol / Codex CLI / RxR-CE 的 SPL 为 21.5，而 Table 2 写作 21.0；本页导航表使用 Table 1 的 21.5。论文自身这一差异需要作者后续统一。
-- 作者、arXiv、GitHub 地址和 BibTeX 尚未提供，故暂时隐藏。
+- 作者于本次同步中确认 Codex CLI / GPT-5.6-Sol / RxR-CE 的 SR=28.0、SPL=21.0；主页两张表已统一采用该值。
+- 作者与单位已按 arXiv 源稿显示；正式 arXiv 地址、代码仓库地址和 BibTeX 尚未提供，相关链接继续隐藏。
+- Table 2 的 Text/Dec. 单位为千字符；最后一列为 Total ratio (Goal/Off, %)，不再使用旧的 Ctx. red.。
+- 表格数值按源稿及作者确认的 SR/SPL 修订同步，加粗和下划线沿用源稿；稿件中已注释的 Minimal 行不再展示。
 
 ## Local preview
 
